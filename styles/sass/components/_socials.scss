@@ -1,0 +1,18 @@
+.socials {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 3rem;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .socials__icon {
+    font-size: 2.3rem;
+    margin: 0 1.1rem;
+    color: $grayish-blue;
+    &:hover {
+      color: $soft-red;
+    }
+  }
+}

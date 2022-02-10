@@ -34,5 +34,5 @@ yarn-error.log*
 .vercel
 
 test.text
-README-template.md
-style-guide.md
+README-template.text
+style-guide.text

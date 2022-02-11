@@ -25,11 +25,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/Screenshot.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://countdown-timer-liard.vercel.app/)
+- Live Site URL: [Countdown timer](https://countdown-timer-liard.vercel.app/)
 
 ## My process
 
@@ -48,4 +48,4 @@ I used this project with the main purpose to pratice react and css
 
 ## Author
 
-- Website - [Add your name here](https://www.jorgesantos.dev)
+- Website - [Jorge Santos](https://www.jorgesantos.dev)

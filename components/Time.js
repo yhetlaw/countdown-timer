@@ -17,24 +17,36 @@ const Time = () => {
     <div className='main__time'>
       <div className='main__card'>
         <div className='main__image'>
+          <div className='main__division'></div>
+          <div className='main_circle-left'></div>
+          <div className='main_circle-right'></div>
           <p id='days' className='main__number'></p>
         </div>
         <div className='main__title'>days</div>
       </div>
       <div className='main__card'>
         <div className='main__image'>
+          <div className='main__division'></div>
+          <div className='main_circle-left'></div>
+          <div className='main_circle-right'></div>
           <p id='hours' className='main__number'></p>
         </div>
         <div className='main__title'>hours</div>
       </div>
       <div className='main__card'>
         <div className='main__image'>
+          <div className='main__division'></div>
+          <div className='main_circle-left'></div>
+          <div className='main_circle-right'></div>
           <p id='minutes' className='main__number'></p>
         </div>
         <div className='main__title'>minutes</div>
       </div>
       <div className='main__card'>
         <div className='main__image'>
+          <div className='main__division'></div>
+          <div className='main_circle-left'></div>
+          <div className='main_circle-right'></div>
           <p id='seconds' className='main__number'></p>
         </div>
         <div className='main__title'>seconds</div>

@@ -1,5 +1,10 @@
-.background__hills {
+.background__wrapper {
   position: absolute;
   left: 0;
   bottom: 0;
+  width: 100vw;
+  .background__hills {
+    position: relative;
+    height: 300px;
+  }
 }

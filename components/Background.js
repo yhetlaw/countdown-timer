@@ -7,8 +7,10 @@ import stars from '../images/bg-stars.svg';
 const Background = () => {
   return (
     <>
-      <div className='background__hills'>
-        <Image src={hills} alt='hills' width={2000} height={300} />
+      <div className='background__wrapper'>
+        <div className='background__hills'>
+          <Image src={hills} alt='hills' layout='fill' objectFit='cover' />
+        </div>
       </div>
     </>
   );

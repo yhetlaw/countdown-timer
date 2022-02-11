@@ -7,13 +7,13 @@ import { FaInstagram } from '@react-icons/all-files/fa/FaInstagram';
 const Socials = () => {
   return (
     <div className='socials'>
-      <a href='https://github.com/yhetlaw' target='_blank' rel='noreferrer'>
+      <a href='https://github.com/yhetlaw/countdown-timer' target='_blank' rel='noreferrer'>
         <FaFacebookSquare className='socials__icon' />
       </a>
-      <a href='https://github.com/yhetlaw' target='_blank' rel='noreferrer'>
+      <a href='https://github.com/yhetlaw/countdown-timer' target='_blank' rel='noreferrer'>
         <FaPinterestP className='socials__icon' />
       </a>
-      <a href='https://github.com/yhetlaw' target='_blank' rel='noreferrer'>
+      <a href='https://github.com/yhetlaw/countdown-timer' target='_blank' rel='noreferrer'>
         <FaInstagram className='socials__icon' />
       </a>
     </div>

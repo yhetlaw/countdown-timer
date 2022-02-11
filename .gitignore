@@ -36,3 +36,4 @@ yarn-error.log*
 test.text
 README-template.text
 style-guide.text
+.vercel

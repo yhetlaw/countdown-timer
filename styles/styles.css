@@ -1,15 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap");
-.background__hills {
+@font-face {
+  font-family: 'Redhat';
+  src: url("./../../../fonts/RedHatText-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: 'Redhat2';
+  src: url("./../../../fonts/RedHatDisplay-Bold.otf") format("otf");
+}
+
+.background__wrapper {
   position: absolute;
   left: 0;
   bottom: 0;
+  width: 100vw;
+}
+
+.background__wrapper .background__hills {
+  position: relative;
+  height: 300px;
 }
 
 .socials {
   width: 100%;
   height: 40px;
   position: absolute;
-  bottom: 3rem;
+  bottom: 5rem;
   left: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -74,6 +90,7 @@ body .main {
   body .main {
     width: 95vw;
     margin-bottom: 0;
+    margin-top: -8rem;
   }
 }
 
@@ -155,6 +172,9 @@ body .main .main__time .main__card .main__image {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-shadow: 0px 17px 0px -5px rgba(20, 20, 20, 0.57);
+  box-shadow: 0px 17px 0px -5px rgba(17, 17, 17, 0.57);
+  position: relative;
 }
 
 @media (max-width: 1000px) {
@@ -171,9 +191,64 @@ body .main .main__time .main__card .main__image {
   }
 }
 
+body .main .main__time .main__card .main__image .main__division {
+  width: 100%;
+  height: 50%;
+  background-color: #1e1f29;
+  opacity: 0.25;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 3px solid black;
+}
+
+body .main .main__time .main__card .main__image .main_circle-left {
+  height: 16px;
+  width: 8px;
+  background-color: black;
+  position: absolute;
+  top: 45%;
+  left: 0;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+@media (max-width: 450px) {
+  body .main .main__time .main__card .main__image .main_circle-left {
+    height: 8px;
+    width: 4px;
+    top: 44%;
+  }
+}
+
+body .main .main__time .main__card .main__image .main_circle-right {
+  height: 16px;
+  width: 8px;
+  background-color: black;
+  position: absolute;
+  top: 45%;
+  left: 96%;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+@media (max-width: 450px) {
+  body .main .main__time .main__card .main__image .main_circle-right {
+    height: 8px;
+    width: 4px;
+    top: 40%;
+  }
+}
+
 body .main .main__time .main__card .main__image .main__number {
   font-size: 5rem;
   color: #fb6087;
+}
+
+@media (max-width: 450px) {
+  body .main .main__time .main__card .main__image .main__number {
+    font-size: 2rem;
+  }
 }
 
 body .main .main__time .main__card .main__title {
